@@ -135,6 +135,7 @@ header {
         max-width: 600px;
         margin: 0.75rem auto;
     }
+    
     #location img {
         width: 600px;
     }
@@ -172,5 +173,9 @@ header {
 @media only screen and (min-width: 930px) {
     img {
         width: 440px;
+    }
+    
+    #location img {
+        width: 768px;
     }
 }

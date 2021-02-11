@@ -8,14 +8,15 @@ html {
     font-family: 'Quicksand', sans-serif;
     color: #6A8AC8;
     scroll-padding-top: 2.5rem;
-    font-size: 12px;
+    font-size: 14px;
+    text-align: center;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2 {
     font-family: 'Bitter', serif;
 }
-h1, h5, p {
-    margin: .75rem;
+h1, h2, p {
+    margin: 0 .75rem;
 }
 
 a {
@@ -34,6 +35,11 @@ body {
     background-color: rgba(255, 252, 233, 1);
     height: auto;
     margin: 0px;
+}
+
+section {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 .container {
@@ -85,6 +91,27 @@ header {
     text-align: center;
 }
 
+#location {
+    /*display: block;
+    width: 100%;
+    
+    /*background-image: url(../resources/gautam-arora-78Ae6N7rNvI-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    width: 100%;
+    height: 67vw;
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: column;
+    justify-items: flex-start;
+    align-items: center;*/
+}
+
+#location h2 {
+    text-align: center;
+}
+
 #contact {
     background-image: url(../resources/sven-brandsma-J6sUD5F6SR4-unsplash.jpg);
     background-repeat: no-repeat;
@@ -92,7 +119,7 @@ header {
     background-position: center;
     width: 100%;
     height: 150vW;
-    margin: 0 auto;
+    margin: 2rem auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -100,18 +127,27 @@ header {
 }
 
 @media only screen and (min-width: 600px) {
-    html {
-        font-size: 14px;
-    }
-
     img {
         width: 270px;
+    }
+    
+    p {
+        max-width: 600px;
+        margin: 0.75rem auto;
+    }
+    #location img {
+        width: 600px;
     }
 }
 @media only screen and (min-width: 768px) {
     
     html {
         font-size: 16px;
+    }
+    
+    p {
+        max-width: 768px;
+        margin: 0.75rem auto;
     }
 
     img {
@@ -123,8 +159,18 @@ header {
         height: 576px;
     }
 
+    #location img {
+        width: 768px;
+    }
+
     #contact {
         width: 768px;
         height: 880px;
+    }
+}
+
+@media only screen and (min-width: 930px) {
+    img {
+        width: 440px;
     }
 }

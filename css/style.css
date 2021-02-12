@@ -27,6 +27,7 @@ a {
 img {
     margin: 0.5rem;
     max-width: 100vw;
+    align-self: center;
 }
 
 body {
@@ -89,23 +90,6 @@ header {
 
 #about h2 {
     text-align: center;
-}
-
-#location {
-    /*display: block;
-    width: 100%;
-    
-    /*background-image: url(../resources/gautam-arora-78Ae6N7rNvI-unsplash.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: center;
-    width: 100%;
-    height: 67vw;
-    margin: 2rem auto;
-    display: flex;
-    flex-direction: column;
-    justify-items: flex-start;
-    align-items: center;*/
 }
 
 #location h2 {
